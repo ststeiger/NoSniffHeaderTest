@@ -601,9 +601,9 @@ namespace TestAndConvertImages
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string path = @"D:\Stefan.Steiger\Documents\Visual Studio 2013\TFS\COR-Basic\COR-Basic\Basicv3\Basic\images";
-            path = @"D:\Stefan.Steiger\Documents\Visual Studio 2013\TFS\COR-Basic\COR-Basic\Basic\Basic\images";
-            path = @"D:\Stefan.Steiger\Documents\Visual Studio 2013\TFS\SwissRE\SwissRe_V3\SwissRe\images";
+            string path = @"D:\username\Documents\Visual Studio 2013\TFS\COR-Basic\COR-Basic\Basicv3\Basic\images";
+            path = @"D:\username\Documents\Visual Studio 2013\TFS\COR-Basic\COR-Basic\Basic\Basic\images";
+            path = @"D:\username\Documents\Visual Studio 2013\TFS\SwissRE\SwissRe_V3\SwissRe\images";
 
             string[] filez = System.IO.Directory.GetFiles(path, "*.*", System.IO.SearchOption.TopDirectoryOnly);
 
