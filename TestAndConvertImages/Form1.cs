@@ -11,13 +11,13 @@ namespace TestAndConvertImages
     public partial class Form1 : Form
     {
 
-        private static IDictionary<string, string> _mappings;
+        private static IDictionary<string, string> m_mappings;
 
         public Form1()
         {
             InitializeComponent();
 
-            _mappings = new Dictionary<string, string>(StringComparer.InvariantCultureIgnoreCase) {
+            m_mappings = new Dictionary<string, string>(StringComparer.InvariantCultureIgnoreCase) {
         {".323", "text/h323"},
         {".3g2", "video/3gpp2"},
         {".3gp", "video/3gpp"},
@@ -613,11 +613,9 @@ namespace TestAndConvertImages
 
                 using (System.Drawing.Image pic = System.Drawing.Image.FromFile(fileName))
                 {
-                    string expectedMimeType = _mappings[ext];
+                    string expectedMimeType = m_mappings[ext];
                     string actualMimeType = GetMimeType(pic);
                     
-
-
 
                     if (!StringComparer.OrdinalIgnoreCase.Equals(expectedMimeType, actualMimeType))
                     { 
