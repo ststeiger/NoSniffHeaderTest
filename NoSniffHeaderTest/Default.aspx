@@ -44,7 +44,13 @@
         <h5>Missing error messages, different behaviour in different browsers + caching-bugs - this renders testing into a futile endeavour, 
             and prolongs error-search beyond identifying &quot;the&quot; problem...</h5>
 
-        <a target="_blank" href="https://msdn.microsoft.com/en-us/library/gg622941(v=vs.85).aspx">Reducing MIME type security risks</a>
+        <a target="_blank" href="https://msdn.microsoft.com/en-us/library/gg622941(v=vs.85).aspx">Reducing MIME type security risks</a><br />
+        <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options">MDN: X-Content-Type-Options</a><br />
+        <a target="_blank" href="https://wiki.mozilla.org/Security/Guidelines/Web_Security">Mozilla Web Security Guidelines</a><br />
+        
+        
+
+
 
         <br /><br /><br /><br />
         <hr />
