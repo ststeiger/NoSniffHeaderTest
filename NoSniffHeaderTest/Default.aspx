@@ -46,7 +46,8 @@
 
         <a target="_blank" href="https://msdn.microsoft.com/en-us/library/gg622941(v=vs.85).aspx">Reducing MIME type security risks</a>
 
-
+        <br /><br /><br /><br />
+        <hr />
 
         <div class="Icon iRM" onclick="alert('test');"></div>
 
@@ -54,6 +55,8 @@
 
         <img style="width: 16px; height: 16px;" src="images/room.gif" alt="Image with wrong file-extension" />
         
+        <hr />
+
     </form>
 </body>
 </html>
