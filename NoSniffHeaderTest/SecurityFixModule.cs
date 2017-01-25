@@ -12,7 +12,7 @@ namespace SecurityFixModule
         
         public CustomHttpHeaderModule()
         {
-        	string regex = @"(libwww-perl|libcurl|sqlmap|msnbot|Java/|Purebot|Lipperhey|MaMa CaSpEr|Mail.Ru|gold crawler|MSIE 4.|MSIE 5.|MSIE 6.|MSIE 7.|MSIE 8.|MSIE 3.)";
+            string regex = @"(libwww-perl|libwww|libcurl|urllib|PYcurl|Java/|PHP|PECL|Snoopy|nmap|nikto|paros|WPscan|synapse|SQLmap|wGet|msnbot|Purebot|Lipperhey|MaMa CaSpEr|Mail.Ru|gold crawler|Borg|MSIE 3.|MSIE 4.|MSIE 5.|MSIE 6.|MSIE 7.|MSIE 8.)";
             
             if (regex != null && regex != "")
                 m_bannedUserAgentsRegex = new System.Text.RegularExpressions.Regex(regex, System.Text.RegularExpressions.RegexOptions.IgnoreCase | System.Text.RegularExpressions.RegexOptions.Compiled);
