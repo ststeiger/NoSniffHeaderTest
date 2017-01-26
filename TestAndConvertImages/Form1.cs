@@ -61,6 +61,7 @@ namespace TestAndConvertImages
             path = @"D:\username\Documents\Visual Studio 2013\TFS\COR-Basic\COR-Basic\Basic\Basic\images";
             path = @"D:\username\Documents\Visual Studio 2013\TFS\SwissRE\SwissRe_V3\SwissRe\images";
             path = @"D:\username\Documents\Visual Studio 2013\TFS\COR-FM-Suite\COR_FM-Suite\Portal\images\icon";
+            path = @"D:\username\Documents\Visual Studio 2013\TFS\COR-Basic-V4\Portal\Portal\images\icon";
 
             string[] filez = System.IO.Directory.GetFiles(path, "*.*", System.IO.SearchOption.TopDirectoryOnly);
 
